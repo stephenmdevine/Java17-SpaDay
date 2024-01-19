@@ -24,3 +24,34 @@ table {
             padding: 10px;
             text-align: center;
 }
+
+.grid-container {
+    display: flex;
+    grid-template-columns: repeat(7, auto);
+}
+
+.square {
+    aspect-ratio: 1/1;
+}
+
+.square.one {
+    background-color: #8b008b;
+}
+.square.two {
+    background-color: #b2227b;
+}
+.square.three {
+    background-color: #dda0dd;
+}
+.square.four {
+    background-color: #ffeace;
+}
+.square.five {
+    background-color: #e5eff3;
+}
+.square.six {
+    background-color: #a6c2ca;
+}
+.square.seven {
+    background-color: #4682b4;
+}

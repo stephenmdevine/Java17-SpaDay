@@ -24,7 +24,7 @@ public class SpaDayController {
         }
     }
 
-    @GetMapping("form")
+    @GetMapping
     public String customerForm () {
         return "form";
     }
